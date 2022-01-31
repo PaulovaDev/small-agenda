@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsteelblue;
+}
+
+div {
+    display: block;
+    clear: left;
+}
+
+form fieldset {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+form fieldset legend {
+    color: darkred;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+form fieldset.new_contact label {
+    font-weight: bold;
+    display: block;
+    float: left;
+    clear: left;
+    width: 12%;
+    margin-top: 15px;
+}
+
+form fieldset.new_contact input {
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+form fieldset div input.button {  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+
+form fieldset button.clear {  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+
+table.center_text {
+    text-align: center;
+}
